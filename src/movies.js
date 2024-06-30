@@ -31,7 +31,7 @@ function howManyMovies (arrayMovies) {
 
     const moviesStevenSpielberg = arrayMovies.filter((arrayMovies) => {
         return(
-        arrayMovies.director === 'Steven Spielberg' && arrayMovies.genre.includes('Drama') === true);});
+        arrayMovies.director === 'Steven Spielberg' && arrayMovies.genre.includes('Drama'));});
     return moviesStevenSpielberg
 }
 console.log(howManyMovies(movies));
